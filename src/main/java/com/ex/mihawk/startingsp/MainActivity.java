@@ -54,7 +54,7 @@ int count;
                 try {
 
                     long startCon=System.currentTimeMillis();
-                    Socket s= new Socket("192.168.1.41", 4000);
+                    Socket s= new Socket("ip", 4000);
                     final long Latency=System.currentTimeMillis()-startCon;
                     txt.post(new Runnable() {
                         @Override
@@ -128,7 +128,7 @@ int count;
             try{
                 long upStart=System.currentTimeMillis();
                 //Thread.sleep(5000);
-                Socket soc= new Socket("192.168.1.41", 4000);
+                Socket soc= new Socket("ip", 4000);
                 FileInputStream fis=new FileInputStream("/storage/emulated/0/Download/8.txt");
                 byte [] buff=new byte[fis.available()];
                 fis.read(buff);
