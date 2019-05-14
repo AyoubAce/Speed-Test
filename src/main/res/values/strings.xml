@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mobile SpeedTest</string>
+    <string name="bgname">SPEEDTEST  </string>
+    <string name="ping">PING</string>
+    <string name="dd">DOWNLOAD</string>
+    <string name="upD">UPLOAD</string>
+    <string name="lolo">DOWNLOAD</string>
+    <string name="begin_test">Begin Test</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="upload">UPLOAD</string>
+    <string name="clienticon">ClientIcon</string>
+    <string name="servericon">ServerIcon</string>
+    <string name="test_again">Test again</string>
+</resources>
